@@ -67,7 +67,6 @@ const Shows: React.FC<ShowsProps> = ({ title, noBackground, images }) => {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
-          {/* Step 2: Use map to render SwiperSlides dynamically */}
           {images.map((movie, index) => (
             <SwiperSlide key={index}>
               <div className="movie-card">

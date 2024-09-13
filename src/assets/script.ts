@@ -34,11 +34,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-/**
- * Go top button
- */
 
-// Cast `goTopBtn` to `HTMLElement | null`
 const goTopBtn = document.querySelector("[data-go-top]") as HTMLElement | null;
 
 window.addEventListener("scroll", () => {
