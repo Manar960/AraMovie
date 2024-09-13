@@ -3,6 +3,7 @@ import "./components/Home.css";
 import Shows from "./components/Shows";
 import UpcomingMovies from "./components/UpcomingMovies";
 import { movieData ,asiaData,animeData} from "../../assets/data";
+import News from "./components/News";
 
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
         <Shows title="Recently Added Movies" images={movieData} />
         <Shows title="Asian Shows" noBackground images={asiaData} />
         <Shows title="Anime" images={animeData} />
-      
+        <News/>
       </article>
     </main>
   );
