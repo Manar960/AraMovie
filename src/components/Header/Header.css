@@ -133,10 +133,6 @@
 
 @media (min-width: 768px) {
 
-  :root {
-    --fs-2: 36px;
-  }
-
   .container { max-width: 720px; }
 
   .header .container { gap: 30px; }
@@ -228,14 +224,6 @@
 }
 
 @media (min-width: 1200px) {
-
-  
-  :root {
-    --fs-1: 60px;
-    --fs-4: 26px;
-
-  }
-
   .container { max-width: 1320px; }
 
   .navbar { margin-inline: auto; }
